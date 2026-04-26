@@ -23,11 +23,13 @@ a {
   align-items: center;
 }
 .nav__logo--title {
+
   font-weight: 900;
   font-size: 24px;
   margin-left: 12px;
   padding-bottom: 2px;
   letter-spacing: 0.6px;
+  text-align: left;
 }
 .nav__links {
   display: flex;
@@ -126,4 +128,36 @@ header__email--button {
     font-size: 18px;
     margin-top: 32px;
     margin-bottom: 32px;
+}
+
+.nav__logo--img{
+    height: 40px;
+    width: 40px;
+}
+
+.section__subtitle {
+    font-size: 16px;
+    color: #8b27f5;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.features__container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.section__subtitle--large {
+display: flex;
+justify-content: center;
+letter-spacing: 1.6px;
+font-size: 48px;
+}
+
+.features__description--para {
+    display: flex;
+    justify-content: center;
 }
