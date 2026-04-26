@@ -1,104 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter",sans-serif;
-    color: #243e63;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
 }
 .row {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 a {
-    text-decoration: none;
-    padding: 0 16px;
+  text-decoration: none;
+  padding: 0 16px;
 }
 .nav {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-   
-    }
-    .nav__logo--title {
-        font-weight: 900;
-        font-size: 24px;
-        margin-left: 12px;
-        padding-bottom: 2px;
-        letter-spacing: 0.6px;
-    }
-    .nav__links {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        }
-    .nav__link {
-            text-decoration: none;
-            padding: 0 16px;
-            color: #8B27F5;
-        }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo--title {
+  font-weight: 900;
+  font-size: 24px;
+  margin-left: 12px;
+  padding-bottom: 2px;
+  letter-spacing: 0.6px;
+}
+.nav__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav__link {
+  text-decoration: none;
+  padding: 0 16px;
+  color: #8b27f5;
+}
 
-        .header__img {
-            width: 100%;
-            max-width: 768px;
-        }
-        .header__email--input {
-            width: 100%;
-            max-width: 500px;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin: 24px 0;
-            border-radius: 500px;
-            border: 2px solid rgb(229,231,235);
-            padding: 20px 192px 20px 32px;
-            color: rgb(36,62,99);
-            font-size: 16px;
-            font-weight: 500;
-            transition: border-color 300ms;
-                    }
+.header__img {
+  width: 100%;
+  max-width: 768px;
+}
+.header__email--input {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 24px 0;
+  border-radius: 500px;
+  border: 2px solid rgb(229, 231, 235);
+  padding: 16px;
+  color: rgb(36, 62, 99);
+  font-size: 16px;
+  font-weight: 500;
+  transition: border-color 300ms;
+}
 
-       .header__email--input input {
-            flex: 1;
-            border: none;
-            outline: none;
-       }
-       .header__img img {
-        width: 100%;
-       }
-        header__email--button {
-            z-index: 2;
-            margin: 8px;
-            height: calc(100%-16px);
-            border-radius: 500;
-            width: 160px;
-            border: none;
-            background-color: #8B27F5;
-            color:#fff;
-            font-weight: 700;
-            font-size: 16px;
-            transition: all 300ms ease;
-        }
-        .header__customers {
-            margin-top: 16px;
-            padding-right: 128px;
-            opacity: 0.5;
-            display: flex;
-            justify-content: center;
-        }
+.header__email--input input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+.header__img img {
+  width: 100%;
+}
+header__email--button {
+  z-index: 2;
+  margin: 8px;
+  height: calc(100%-16px);
+  border-radius: 500;
+  width: 160px;
+  border: none;
+  background-color: #8b27f5;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 300ms ease;
+}
+.header__customers {
+  margin-top: 80px;
+  padding-right: 128px;
+  opacity: 0.5;
+}
 
-   
 .btn {
-    background-color: #8B27F5;
-    padding: 10px 20px;
-    color: white;
-    border-radius: 12px;
-    border: none;
+  background-color: #8b27f5;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 12px;
+  border: none;
 }
 
 .purple {
-    color: #8B27F5;
+  color: #8b27f5;
+}
+
+#highlights {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#highlights .row {
+    width: 40%;
+}
+
+#highlights .header__img {
+    width: 60%;
+}
+
+.customer__logos--img {
+    width: 100%;
+}
+
+.section__title {
+    font-size: 48px;
+}
+
+.header__description--para {
+    font-size: 18px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
