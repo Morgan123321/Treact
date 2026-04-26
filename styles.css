@@ -33,7 +33,7 @@ a {
     .nav__links {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 560px;
+        align-items: center;
         }
     .nav__link {
             text-decoration: none;
@@ -47,24 +47,30 @@ a {
         }
         .header__email--input {
             width: 100%;
+            max-width: 500px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 24px 0;
             border-radius: 500px;
             border: 2px solid rgb(229,231,235);
             padding: 20px 192px 20px 32px;
             color: rgb(36,62,99);
-            font-size: 16;
-            font-weight: 500px;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            z-index: 1;
+            font-size: 16px;
+            font-weight: 500;
             transition: border-color 300ms;
+            flex: 1;
+            border: none;
+            outline: none;
         }
-
+       .header__img img {
+        width: 100%;
+       }
         header__email--button {
             z-index: 2;
             margin: 8px;
             height: calc(100%-16px);
-            border-radius: 500px;
+            border-radius: 500;
             width: 160px;
             border: none;
             background-color: #8B27F5;
@@ -77,6 +83,8 @@ a {
             margin-top: 16px;
             padding-right: 128px;
             opacity: 0.5;
+            display: flex;
+            justify-content: center;
         }
 
    
@@ -85,6 +93,7 @@ a {
     padding: 10px 20px;
     color: white;
     border-radius: 12px;
+    border: none;
 }
 
 .purple {
