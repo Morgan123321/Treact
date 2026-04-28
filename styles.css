@@ -208,7 +208,7 @@ font-size: 48px;
 #quality{
     display: flex;
     max-width: 1200px;
-    margin: 0 auto;
+   margin: 0 auto;
     margin-top: 100px;
 }
 
@@ -218,3 +218,15 @@ font-size: 48px;
     flex-direction: column;
 }
 
+.quality__img--wrapper {
+    width: 50%;
+    height: 300px;
+   
+}
+
+#quality .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
