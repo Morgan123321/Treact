@@ -197,3 +197,24 @@ font-size: 48px;
     border-radius: 50%;
     padding: 8px;
 }
+
+.quality__description--para {
+    font-size: 18px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    justify-content: left;
+}
+
+#quality{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#quality .row {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
