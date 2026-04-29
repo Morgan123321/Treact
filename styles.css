@@ -155,7 +155,7 @@ header__email--button {
 
 .section__subtitle--large {
 display: flex;
-justify-content: center;
+justify-content: space-between;
 letter-spacing: 1.6px;
 font-size: 48px;
 }
@@ -215,12 +215,13 @@ font-size: 48px;
 #quality .row {
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: center;
    gap: 64px;
 }
 
 quality__description {
     width: 50%;
+    justify-content: center;
 }
 
 .quality__img--wrapper {
