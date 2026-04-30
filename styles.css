@@ -147,6 +147,11 @@ header__email--button {
     margin-top: 48px;
 }
 
+.row__narrow{
+   width: 100%;
+   max-width: 1024px;
+   margin: 0 auto;
+}
 .features__container {
     display: flex;
     justify-content: center;
@@ -154,10 +159,11 @@ header__email--button {
 }
 
 .section__subtitle--large {
-display: flex;
-justify-content: space-between;
-letter-spacing: 1.6px;
 font-size: 48px;
+font-weight: 900;
+line-height: 1.5;
+margin: 16px 0;
+letter-spacing: 0.025em;
 }
 
 .features__description--para {
@@ -180,9 +186,10 @@ font-size: 48px;
 }
 
 .features__subsection {
-   flex: 0 0 33.33%;
-   box-sizing: border-box;
-   padding: 20px;
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  width: calc(100%/3)
    }
 
 .features__container {
