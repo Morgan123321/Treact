@@ -533,3 +533,11 @@ color: #1a202c;
     letter-spacing: 0.025em;
 
 }
+
+g[Attributes Style] {
+    transform: translate(300,300);
+}
+
+:not(svg) {
+    transform-origin: 0px 0px;
+}
