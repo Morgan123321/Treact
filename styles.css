@@ -99,10 +99,17 @@ header__email--button {
 
 .btn {
   background-color: #8b27f5;
-  padding: 10px 20px;
+  padding: 12px 32px;
   color: white;
-  border-radius: 12px;
+  border-radius: 500px;
   border: none;
+  font-weight: bold;
+  transition: all 300ms;
+}
+
+button {
+    cursor: pointer;
+    border: none;
 }
 
 .purple {
@@ -310,4 +317,72 @@ quality__description {
     margin-top: 12px;
     font-weight: 500;
     line-height: 2;
+}
+
+.section__para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
+}
+
+#values .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.values__list {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    max-width: none;
+    flex-direction: row;
+}
+
+.value:nth-of-type(1) {
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.value {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.value__title {
+    display:flex;
+    align-items: center;
+}
+
+.value:nth-child(1)
+.value__img--wrapper {
+    background-color: #9ae6b4;
+}
+
+.value__img--wrapper {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+}
+
+.value__para {
+    margin-top: 16px;
+    line-height: 1.625;
+    color: #718096;
+}
+
+.values__img,
+.values__description {
+    width: 50%;
+}
+
+
+
+.values__description {
+    padding: 32px 64px 32px 0;
 }
