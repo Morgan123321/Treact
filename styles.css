@@ -182,6 +182,7 @@ button {
    width: 100%;
    max-width: 1024px;
    margin: 0 auto;
+}
 
    /*FEATURES*/
 
@@ -835,7 +836,7 @@ color: #1a202c;
 
     /*FOOTER*/
 
-#footer {
+footer {
     padding: 96px 32px;
     background-color: rgb(100, 21, 255);
     margin-bottom: -32px;
@@ -855,9 +856,10 @@ color: #1a202c;
     opacity: 0.5;
 }
 
-#footer {
+footer {
     display:block;
     unicode-bidi:isolate;
+    position: relative;
 }
 
 .footer__blob--2 {
