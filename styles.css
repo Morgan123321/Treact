@@ -34,14 +34,20 @@ section {
   justify-content: space-between;
   align-items: center;
 }
-.nav__logo--title {
 
+.nav__logo {
+    display:flex;
+    align-items: center;
+    margin: 8px 0;
+    padding-bottom: 4px;
+}
+.nav__logo--title {
   font-weight: 900;
   font-size: 24px;
   margin-left: 12px;
   padding-bottom: 2px;
   letter-spacing: 0.6px;
-  text-align: left;
+  
 }
 .nav__links {
   display: flex;
@@ -151,6 +157,11 @@ button {
     margin-bottom: 32px;
 }
 
+.nav__row {
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav__logo--img{
     height: 40px;
     width: 40px;
@@ -173,7 +184,7 @@ button {
    margin: 0 auto;
 
    /*FEATURES*/
-   
+
 .features {
     display: flex;
     flex-wrap: wrap;
