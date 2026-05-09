@@ -192,6 +192,15 @@ button {
     margin-top: 40px;
 }
 
+#features .section__subtitle--large {
+    text-align: center;
+}
+
+.feature__row {
+    display:flex;
+    align-items: flex-start;
+    padding: 32px 24px;
+}
 .features__container {
     display: flex;
     justify-content: center;
@@ -316,7 +325,7 @@ quality__description {
 
 .steps__img {
     z-index: 2;
-    width: 50%;
+    width: 100%;
 }
 
 .step__number {
@@ -403,6 +412,10 @@ quality__description {
 .values__img,
 .values__description {
     width: 50%;
+}
+
+#values .btn {
+    margin-top: 16px;
 }
 
 
@@ -1121,6 +1134,9 @@ footer {
         font-size: 48px;
     }
 
+    #pricing .section__subtitle--large {
+        text-align: center;
+    }
     #testimonials .container {
         padding-top: 5rem;
         padding-bottom: 5rem;
