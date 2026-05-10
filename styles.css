@@ -11,7 +11,7 @@ html {
 }
 body {
     max-width: 100vw;
-    
+
    }
 .row {
     width:100%;
@@ -535,7 +535,7 @@ header {
   height: 10rem;
   opacity: 0.8;
   z-index: -10;
-  color: rgb(100, 21, 255); /* currentColor will inherit this */
+  color: rgb(100, 21, 255); 
   fill: currentColor;
 }
 
